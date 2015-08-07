@@ -4,4 +4,4 @@ echo "$CERT" > /tmp/cert.pem
 
 nginx
 
-hitch-openssl --backend=$BACKEND --frontend=$FRONTEND /tmp/cert.pem
+hitch-openssl --backend=$BACKEND --frontend=$FRONTEND --ciphers="$CIPHERS" /tmp/cert.pem
