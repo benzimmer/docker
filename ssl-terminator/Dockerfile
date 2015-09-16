@@ -1,6 +1,6 @@
 FROM debian:wheezy
 MAINTAINER benzimmer "https://github.com/benzimmer"
-ENV HITCH_VERSION 1.0.0-beta4
+ENV HITCH_VERSION 1.0.0-beta5
 
 RUN apt-get update &&\
     apt-get install -y --force-yes --no-install-recommends build-essential automake curl openssl ca-certificates libssl-dev libev-dev nginx &&\
